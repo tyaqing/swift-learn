@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5E98C767068565580A9371 /* Pods_learn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1080FE1FA0AECD8609D66 /* Pods_learn.framework */; };
 		2592A9CD2A2EC7900077B38B /* learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592A9CC2A2EC7900077B38B /* learnApp.swift */; };
 		2592A9CF2A2EC7900077B38B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592A9CE2A2EC7900077B38B /* ContentView.swift */; };
 		2592A9D12A2EC7910077B38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2592A9D02A2EC7910077B38B /* Assets.xcassets */; };
@@ -19,9 +20,21 @@
 		25E225542A2FB2A200E9FA31 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225532A2FB2A200E9FA31 /* LandmarkRow.swift */; };
 		25E225562A2FB3B900E9FA31 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225552A2FB3B900E9FA31 /* LandmarkList.swift */; };
 		25E225582A300FFD00E9FA31 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225572A300FFD00E9FA31 /* LandmarkDetail.swift */; };
+		25E2255A2A304DD700E9FA31 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225592A304DD700E9FA31 /* FavoriteButton.swift */; };
+		25E2255E2A30979700E9FA31 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2255D2A30979700E9FA31 /* CategoryHome.swift */; };
+		25E225602A309CFB00E9FA31 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2255F2A309CFB00E9FA31 /* CategoryRow.swift */; };
+		25E225622A30A01800E9FA31 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225612A30A01800E9FA31 /* CategoryItem.swift */; };
+		25E225652A30B53F00E9FA31 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225642A30B53F00E9FA31 /* Profile.swift */; };
+		25E225672A30B6C000E9FA31 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225662A30B6C000E9FA31 /* ProfileHost.swift */; };
+		25E2256A2A30B74A00E9FA31 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225692A30B74A00E9FA31 /* ProfileSummary.swift */; };
+		25E2256C2A30F2B200E9FA31 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2256B2A30F2B200E9FA31 /* ProfileEditor.swift */; };
+		25E2256F2A316C3300E9FA31 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2256E2A316C3300E9FA31 /* PageViewController.swift */; };
+		25E225712A31773D00E9FA31 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225702A31773D00E9FA31 /* FeatureCard.swift */; };
+		25E225732A317A1C00E9FA31 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E225722A317A1C00E9FA31 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B1080FE1FA0AECD8609D66 /* Pods_learn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2592A9C92A2EC7900077B38B /* learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2592A9CC2A2EC7900077B38B /* learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnApp.swift; sourceTree = "<group>"; };
 		2592A9CE2A2EC7900077B38B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +48,19 @@
 		25E225532A2FB2A200E9FA31 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		25E225552A2FB3B900E9FA31 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		25E225572A300FFD00E9FA31 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		25E225592A304DD700E9FA31 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		25E2255D2A30979700E9FA31 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		25E2255F2A309CFB00E9FA31 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		25E225612A30A01800E9FA31 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		25E225642A30B53F00E9FA31 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		25E225662A30B6C000E9FA31 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		25E225692A30B74A00E9FA31 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		25E2256B2A30F2B200E9FA31 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		25E2256E2A316C3300E9FA31 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		25E225702A31773D00E9FA31 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		25E225722A317A1C00E9FA31 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A9DB71F6F84D310030393977 /* Pods-learn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn.debug.xcconfig"; path = "Target Support Files/Pods-learn/Pods-learn.debug.xcconfig"; sourceTree = "<group>"; };
+		F1765EBF167E1FF50F86221B /* Pods-learn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn.release.xcconfig"; path = "Target Support Files/Pods-learn/Pods-learn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,12 +68,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5E98C767068565580A9371 /* Pods_learn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2E7192A32A34BEFCB48C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB71F6F84D310030393977 /* Pods-learn.debug.xcconfig */,
+				F1765EBF167E1FF50F86221B /* Pods-learn.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2592A9C02A2EC7900077B38B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +93,8 @@
 				25E2254E2A2FB00600E9FA31 /* Views */,
 				2592A9CB2A2EC7900077B38B /* learn */,
 				2592A9CA2A2EC7900077B38B /* Products */,
+				1B2E7192A32A34BEFCB48C61 /* Pods */,
+				42BB7A140B79838B505EBF92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,12 +127,12 @@
 		25E2254E2A2FB00600E9FA31 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				25E2256D2A316C1400E9FA31 /* land */,
+				25E225682A30B74100E9FA31 /* profile */,
+				25E225632A30A01C00E9FA31 /* category */,
 				2592A9CE2A2EC7900077B38B /* ContentView.swift */,
-				25E225292A2F903C00E9FA31 /* CircleImage.swift */,
-				25E2252B2A2F9B3700E9FA31 /* MapView.swift */,
-				25E225532A2FB2A200E9FA31 /* LandmarkRow.swift */,
-				25E225552A2FB3B900E9FA31 /* LandmarkList.swift */,
-				25E225572A300FFD00E9FA31 /* LandmarkDetail.swift */,
+				25E225702A31773D00E9FA31 /* FeatureCard.swift */,
+				25E225722A317A1C00E9FA31 /* PageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,8 +140,10 @@
 		25E2254F2A2FB01200E9FA31 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				25E2256E2A316C3300E9FA31 /* PageViewController.swift */,
 				25E2254A2A2FA76500E9FA31 /* Landmark.swift */,
 				25E2254C2A2FA97300E9FA31 /* ModelData.swift */,
+				25E225642A30B53F00E9FA31 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +156,47 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		25E225632A30A01C00E9FA31 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				25E2255D2A30979700E9FA31 /* CategoryHome.swift */,
+				25E2255F2A309CFB00E9FA31 /* CategoryRow.swift */,
+				25E225612A30A01800E9FA31 /* CategoryItem.swift */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		25E225682A30B74100E9FA31 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				25E225662A30B6C000E9FA31 /* ProfileHost.swift */,
+				25E225692A30B74A00E9FA31 /* ProfileSummary.swift */,
+				25E2256B2A30F2B200E9FA31 /* ProfileEditor.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		25E2256D2A316C1400E9FA31 /* land */ = {
+			isa = PBXGroup;
+			children = (
+				25E225292A2F903C00E9FA31 /* CircleImage.swift */,
+				25E2252B2A2F9B3700E9FA31 /* MapView.swift */,
+				25E225532A2FB2A200E9FA31 /* LandmarkRow.swift */,
+				25E225552A2FB3B900E9FA31 /* LandmarkList.swift */,
+				25E225572A300FFD00E9FA31 /* LandmarkDetail.swift */,
+				25E225592A304DD700E9FA31 /* FavoriteButton.swift */,
+			);
+			path = land;
+			sourceTree = "<group>";
+		};
+		42BB7A140B79838B505EBF92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B1080FE1FA0AECD8609D66 /* Pods_learn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2592A9D72A2EC7910077B38B /* Build configuration list for PBXNativeTarget "learn" */;
 			buildPhases = (
+				ACB7791D40FDEAA64BCDAC5C /* [CP] Check Pods Manifest.lock */,
 				2592A9C52A2EC7900077B38B /* Sources */,
 				2592A9C62A2EC7900077B38B /* Frameworks */,
 				2592A9C72A2EC7900077B38B /* Resources */,
+				17FD6F35562F13C2072164CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +265,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17FD6F35562F13C2072164CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learn/Pods-learn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learn/Pods-learn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learn/Pods-learn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB7791D40FDEAA64BCDAC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-learn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2592A9C52A2EC7900077B38B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -189,11 +315,22 @@
 				2592A9CF2A2EC7900077B38B /* ContentView.swift in Sources */,
 				25E2252C2A2F9B3700E9FA31 /* MapView.swift in Sources */,
 				2592A9CD2A2EC7900077B38B /* learnApp.swift in Sources */,
+				25E225672A30B6C000E9FA31 /* ProfileHost.swift in Sources */,
+				25E225652A30B53F00E9FA31 /* Profile.swift in Sources */,
+				25E225732A317A1C00E9FA31 /* PageView.swift in Sources */,
+				25E2255A2A304DD700E9FA31 /* FavoriteButton.swift in Sources */,
+				25E2255E2A30979700E9FA31 /* CategoryHome.swift in Sources */,
 				25E225562A2FB3B900E9FA31 /* LandmarkList.swift in Sources */,
 				25E225582A300FFD00E9FA31 /* LandmarkDetail.swift in Sources */,
 				25E2252A2A2F903C00E9FA31 /* CircleImage.swift in Sources */,
+				25E225622A30A01800E9FA31 /* CategoryItem.swift in Sources */,
 				25E2254B2A2FA76500E9FA31 /* Landmark.swift in Sources */,
 				25E225542A2FB2A200E9FA31 /* LandmarkRow.swift in Sources */,
+				25E225602A309CFB00E9FA31 /* CategoryRow.swift in Sources */,
+				25E2256C2A30F2B200E9FA31 /* ProfileEditor.swift in Sources */,
+				25E225712A31773D00E9FA31 /* FeatureCard.swift in Sources */,
+				25E2256F2A316C3300E9FA31 /* PageViewController.swift in Sources */,
+				25E2256A2A30B74A00E9FA31 /* ProfileSummary.swift in Sources */,
 				25E2254D2A2FA97300E9FA31 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +454,7 @@
 		};
 		2592A9D82A2EC7910077B38B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DB71F6F84D310030393977 /* Pods-learn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +484,7 @@
 		};
 		2592A9D92A2EC7910077B38B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1765EBF167E1FF50F86221B /* Pods-learn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
